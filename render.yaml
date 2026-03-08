@@ -1,0 +1,11 @@
+# render.yaml
+services:
+  - type: web
+    name: cybersecurity-website
+    runtime: php
+    rootDir: /
+    buildCommand: ""
+    startCommand: php -S 0.0.0.0:10000
+    envVars:
+      - key: PHP_VERSION
+        value: 8.1
